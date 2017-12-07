@@ -4,7 +4,7 @@ let polyInst = null;
 if (!window.i18n) window.i18n = {languages:{},curLang:''};
 
 let lang = cc.sys.language;
-if (['en'].indexOf(lang) === -1) {
+if (['en', 'fr'].indexOf(lang) === -1) {
     lang = 'en';
 }
 window.i18n.curLang = lang;
